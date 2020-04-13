@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+   
+    "name": "AVC CSS and HTML",
+    "version": "0.1.0",
+    "description": "Lateral blog post demo extension",
+    
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+
+    "content_scripts": [{
+      "css": ["style.css"],
+      "js": ["jquery-3.5.0.min.js","content.js"],
+      "matches": ["http://211.23.131.218:8079/*"]
+    }]
+   
+  }

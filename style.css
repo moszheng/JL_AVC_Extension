@@ -1,0 +1,41 @@
+body, caption, input, label {
+	font-family: Helvetica,DIN, Tahoma, Verdana, 微軟正黑體 !important;
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+#divLogon { /*主要content*/
+    height: 350px;
+    border: none !important;
+}
+
+table {
+    margin: 0px auto;
+    height: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+#UserID, #Password{ /*帳號input*/
+    border: 1px solid #ccc!important;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+#btnSubmit{ /*---登入---*/
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
+    height: 54px;
+    width: 80% !important;
+}
+
+#btnSubmit:hover{
+  background-color: #3e8e41;
+}
+
