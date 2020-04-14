@@ -2,19 +2,43 @@ body, caption, input, label {
 	font-family: Helvetica,DIN, Tahoma, Verdana, 微軟正黑體 !important;
 }
 body{
-    background-color: rgb(228, 228, 228);
+    background-image:url( image/LOGO.svg );
+    background-repeat:no-repeat;
+    background-color: rgb(248, 248, 248);
+    height: 580px;
+    /*transform: translate(-50%,-50%);*/
+}
+#contentheader{
+    
+    background: url(image/LOGO.svg) no-repeat 0px 0px !important;
+}
+#frame{
+    height: 100%;
+}
+#content{
+    height: 500px;
+}
+.divForm,fieldset{
+    height: 100%;
 }
 #divLogon { /*主要content*/
     height: 350px;
     border: none !important;
 }
+#formFinance {
+    height: 120px;
+    background: none !important;
+}
 
 table {
     margin: 0px auto;
     height: 100%;
-    background-color: rgb(233, 233, 233);
+    background-color: transparent;
 }
-
+#tabFinance{
+    float: none !important;
+    
+}
 #UserID, #Password{ /*帳號input*/
     border: 1px solid #ccc!important;
     border-radius: 4px;
